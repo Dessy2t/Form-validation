@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.form_container{
+    background-color: #f3f3f3;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #04040666;
+
+}
+input{
+    border: 2px;
+    /* margin-top: 2px; */
+    padding: 10px;
+    border-radius: 4px;
+}
+button{
+    margin-top: 20px;
+    padding: 7px 15px;
+    width: 165px;
+    background-color: #3761ea;
+    color: #fff;
+    border: none;
+
+}
